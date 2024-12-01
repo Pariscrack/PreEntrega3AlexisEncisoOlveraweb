@@ -1,0 +1,28 @@
+footer {
+  background-color: #D9D9D9;
+  padding: 20px 0;
+  text-align: center;
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-button {
+      background-color: #555;
+      color: white;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 5px;
+      border: none;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }
+}

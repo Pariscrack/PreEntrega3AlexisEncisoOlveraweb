@@ -1,0 +1,56 @@
+.galeriaProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  .producto {
+    text-align: center;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+
+    img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    button {
+      margin-top: 10px;
+      background-color: #555;
+      color: white;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 5px;
+      border: none;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .producto {
+      width: calc(33.3333333333% - 40px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .producto {
+      width: calc(50% - 40px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .producto {
+      width: calc(100% - 40px);
+    }
+  }
+}

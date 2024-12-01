@@ -1,0 +1,176 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #D9D9D9;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+nav {
+  text-align: center;
+}
+nav .navbar {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav .navbar li {
+  margin: 20px 10px;
+}
+nav .navbar li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+nav .navbar li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portada {
+  width: 100%;
+  height: 500px;
+  background-image: url("../assets/img/portadaperfumes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portada .textoPortada {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.galeriaProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.galeriaProductos .producto {
+  text-align: center;
+  width: calc(25% - 40px);
+  box-sizing: border-box;
+}
+.galeriaProductos .producto img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.galeriaProductos .producto img:hover {
+  transform: scale(1.05);
+}
+.galeriaProductos .producto button {
+  margin-top: 10px;
+  background-color: #555;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.galeriaProductos .producto button:hover {
+  background-color: #333;
+}
+@media (max-width: 992px) {
+  .galeriaProductos .producto {
+    width: calc(33.3333333333% - 40px);
+  }
+}
+@media (max-width: 768px) {
+  .galeriaProductos .producto {
+    width: calc(50% - 40px);
+  }
+}
+@media (max-width: 480px) {
+  .galeriaProductos .producto {
+    width: calc(100% - 40px);
+  }
+}
+
+footer {
+  background-color: #D9D9D9;
+  padding: 20px 0;
+  text-align: center;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-content .contact-button {
+  background-color: #555;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-weight: 600;
+}
+footer .footer-content .contact-button:hover {
+  background-color: #333;
+}
+
+@media (max-width: 992px) {
+  .producto {
+    width: calc(33.3333333333% - 40px);
+  }
+}
+@media (max-width: 768px) {
+  .producto {
+    width: calc(50% - 40px);
+  }
+}
+@media (max-width: 480px) {
+  .producto {
+    width: calc(100% - 40px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

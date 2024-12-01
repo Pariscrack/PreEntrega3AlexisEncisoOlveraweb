@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portada {
+  width: 100%;
+  height: 500px;
+  background-image: url("../assets/img/portadaperfumes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .textoPortada {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+}

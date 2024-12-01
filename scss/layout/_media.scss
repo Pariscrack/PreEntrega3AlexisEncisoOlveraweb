@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+  .producto {
+    width: calc(33.3333333333% - 40px);
+  }
+}
+
+@media (max-width: 768px) {
+  .producto {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .producto {
+    width: calc(100% - 40px);
+  }
+}
